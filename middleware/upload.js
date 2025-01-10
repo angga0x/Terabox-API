@@ -170,4 +170,6 @@ async function createFile(md5,upload_id, size, filename) {
     }
 }
 
-module.exports = { preCreate, superFile, createFile }
+// module.exports = { preCreate, superFile, createFile }
+
+module.exports = preCreate
